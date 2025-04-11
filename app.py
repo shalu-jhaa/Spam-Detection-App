@@ -18,7 +18,8 @@ from keras.callbacks import EarlyStopping, ReduceLROnPlateau
 
 import warnings
 warnings.filterwarnings('ignore')
-data = pd.read_csv(r'C:\Users\DELL\Downloads\email spam project\spam_ham_dataset.csv')
+data = pd.read_csv('data/spam_ham_dataset.csv')
+
 
 
 data.head()
